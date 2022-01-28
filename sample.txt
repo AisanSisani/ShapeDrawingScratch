@@ -1,0 +1,55 @@
+# format:
+# image, label, precedence and how many shapes in it there will be, then description of shapes
+# shape label, shape name, font, points
+# circle only has the difference of having radius come after font, then points
+image
+img 0
+0 3
+shape line
+line 0
+font *
+p0
+0 0
+p1
+16 16
+shape line
+line 1
+font *
+p0
+16 16
+p1
+30 10
+shape line
+line 2
+font *
+p0
+30 10
+p1
+48 27
+draw
+image
+img 1
+1 2
+shape circle
+circle 0
+font +
+12
+p0
+30 30
+shape quad
+quad 1
+font o
+p0
+36 36
+p1
+48 36
+p2
+48 48
+p3
+36 48
+draw
+details
+search
+image 0
+search
+img 1
